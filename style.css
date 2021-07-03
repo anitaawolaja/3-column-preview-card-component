@@ -1,0 +1,225 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+body{
+    font:15px;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+
+#main-component{
+margin: 10vh 5vw 10vh 5vw;
+}
+
+.sections{
+padding:10vh 10vw 5vh 10vw;
+line-height: 2;
+}
+
+p{color: hsla(0, 0%, 100%, 0.75);}
+h1{color: hsl(0, 0%, 95%);
+    font-family: "Big Shoulders Display", cursive; 
+
+} 
+
+#section1{
+    background-color: hsl(31, 77%, 52%);
+    border-radius: 15px 15px 0 0;
+}
+
+#section2{
+    background-color:hsl(184, 100%, 22%);
+    
+}
+
+#section3{
+    background-color:hsl(179, 100%, 13%);
+    border-radius: 0 0 15px 15px;
+    }
+
+button{
+    border-radius: 30px;
+    padding: 17px 40px 17px 40px;
+    background-color:azure;
+    border-style: none;
+    font-family:'Lexend Deca', sans-serif;
+    margin-top: 3vh;
+    margin-bottom: 4vh;
+    font-weight: 700;
+}
+
+
+#section1 > button{
+    color: hsl(31, 77%, 52%);
+}
+
+#section2 > button{
+    color:hsl(184, 100%, 22%);
+}
+
+#section3 > button{
+    color: hsl(179, 100%, 13%);
+}
+
+button:hover {background-color: inherit;
+    border-style: solid;
+    border-color: azure;
+}
+
+#section1 > button:hover{
+    color: azure;
+}
+
+#section2 > button:hover{
+    color: azure;
+}
+
+#section3 > button:hover{
+    color: azure;
+}
+
+@media only screen and (min-width: 380px) and (max-width:768px) {
+    #main-component{
+        display:grid; 
+place-items:center;
+        }
+    
+    #main-component{
+        margin: 10vh 5vw 10vh 5vw;
+        border-radius: 30px;
+        }
+ 
+    .sections{
+        padding:10vh 10vw 5vh 10vw;
+        line-height: 2;
+        width: 50%;
+            } 
+
+  #section1{
+    border-radius: 15px 15px 0 0;
+}
+
+#section3{
+    border-radius: 0 0 15px 15px;
+    }      
+   
+}
+
+@media only screen and (min-width: 769px) and (max-width:992px){
+
+    #main-component{
+        margin: 20vh 10vw 20vh 10vw;
+        width: 80vW;
+        display:flex;
+        }
+
+    .sections{
+        padding:10vh 5vw 5vh 5vw;
+        line-height: 2;
+        width: 50%;
+        font-size: 12px;
+        }
+
+    button{
+        border-radius: 30px;
+        padding: 8px 20px 8px 20px;
+        background-color:azure;
+        border-style: none;
+        font-family:'Lexend Deca', sans-serif;
+        margin-top: 3vh;
+        margin-bottom: 4vh;
+        font-weight: 700;
+        font-size: 12px;
+        }
+        
+        #section1{
+            border-radius:20px 0 0 20px;
+            }
+            
+    #section3{
+             border-radius: 0 20px 20px 0;
+                }     
+} 
+
+@media only screen and (min-width: 993px) and (max-width:1439px ) {
+
+    
+    #main-component{
+        margin: 20vh 10vw 20vh 10vw;
+        width: 80vW;
+        display:flex;
+        }
+        
+        
+    .sections{
+        padding:10vh 5vw 5vh 5vw;
+        line-height: 2;
+        width: 50%;
+            } 
+
+    .card-text{
+        margin-bottom: 10vh;
+    }        
+
+    #section1{
+        border-radius:20px 0 0 20px;
+        }
+        
+#section3{
+         border-radius: 0 20px 20px 0;
+            }     
+}
+
+@media only screen and (min-width: 1440px) and (max-width: 1700px) {
+
+    #main-component{
+        margin: 20vh 10vw 20vh 10vw;
+        width: 80vW;
+        display:flex;
+        }
+
+    .sections{
+        padding:10vh 5.5vw 5vh 5.5vw;
+        line-height: 2;
+        width: 50%;
+            }
+
+    .card-text{
+            margin-bottom: 10vh;
+            }       
+
+            #section1{
+                border-radius:20px 0 0 20px;
+                }
+                
+        #section3{
+                 border-radius: 0 20px 20px 0;
+                    }             
+}
+
+@media only screen and (min-width: 1701px) {
+
+    #main-component{
+        margin: 20vh 10vw 20vh 10vw;
+        width: 80vW;
+        display:flex;
+        }
+
+    .sections{
+        padding:10vh 7.5vw 5vh 6vw;
+        line-height: 2;
+        width: 50%;
+            }
+
+    .card-text{
+        margin-bottom: 10vh;
+            }   
+    #section1{
+                border-radius:20px 0 0 20px;
+                }
+                
+    #section3{
+                 border-radius: 0 20px 20px 0;
+                    }     
+
+}
